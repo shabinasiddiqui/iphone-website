@@ -1,11 +1,10 @@
-function open()
-{
-   /* document.querySelector(".navbar").style.display="block";*/
-   document.querySelector(".navbar").classList.add("open");
-}
-function close()
-{
-    // document.querySelector(".navbar").style.display="none";
-    document.querySelector(".navbar").classList.add("close");
+document.querySelector(".openNav").addEventListener("click", showNav);
+document.querySelector(".closeNav").addEventListener("click", removeNav);
 
+function showNav() {
+  document.querySelector(".navbar").classList.add("addNav");
+}
+
+function removeNav() {
+  document.querySelector(".navbar").classList.remove("addNav");
 }
