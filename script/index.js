@@ -1,9 +1,11 @@
 function open()
 {
-    document.getElementsByClassName("navbar").style.display="block";
+   /* document.querySelector(".navbar").style.display="block";*/
+   document.querySelector(".navbar").classList.add("open");
 }
 function close()
 {
-    document.getElementsByClassName("navbar").style.display="none";
+    // document.querySelector(".navbar").style.display="none";
+    document.querySelector(".navbar").classList.add("close");
 
 }

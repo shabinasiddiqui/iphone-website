@@ -1,19 +1,21 @@
 .navbar{
     height:100%;
+    width:0%;
     position: fixed;
     top: 0;
     left: 0;
     padding-top: 60px;
     background-color: black;
     transition: 0.6s;
-    display:none;
-}
+    display: "none";
+    }
 .navbar a{
     padding: 7px 7px 7px 30px;
     text-decoration: none;
     font-size: 25px;
     color: blueviolet;
     display: block;
+    
     transition: 0.3s;
 }
 #cross{
@@ -24,4 +26,9 @@
     margin-left: 50px;
     color: green;
 }
-   
+.navbar .open{
+    display: block;
+}
+.navbar .close{
+    display: none;
+}
