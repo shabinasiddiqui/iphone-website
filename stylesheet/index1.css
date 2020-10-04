@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    
+    float: left;
+   background-color:black;
+   padding-top: 10px;
+   display: block;
+   
+    
+    
+}
+.navbar a{
+    font-size: 35px;
+    text-decoration: none;
+    color:darkcyan;
+    margin-left: 5%;
+    padding-top: 10px;
+    font-weight: bolder;
+   
+
+}
+.navbar a:hover{
+    background-color:darkgray;
+    color:black;
+
+}
