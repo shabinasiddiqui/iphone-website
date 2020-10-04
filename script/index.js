@@ -1,9 +1,9 @@
 function open()
 {
-    document.getElementsByClassName("navar").style.width="40%";
+    document.getElementsByClassName("navbar").style.display="block";
 }
 function close()
 {
-    document.getElementsByClassName("navar").style.width="0%";
+    document.getElementsByClassName("navbar").style.display="none";
 
 }
